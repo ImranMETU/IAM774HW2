@@ -1,0 +1,226 @@
+{
+  "initialization": {
+    "pinn_kappa": {
+      "count": 3,
+      "mean": 0.029803651218212993,
+      "sample_std": 3.171006718790922e-05
+    },
+    "pinn_signed_relative_error": {
+      "count": 3,
+      "mean": -0.006544959392900229,
+      "sample_std": 0.0010570022395969625
+    },
+    "pinn_absolute_relative_error": {
+      "count": 3,
+      "mean": 0.006544959392900229,
+      "sample_std": 0.0010570022395969625
+    },
+    "least_squares_kappa": {
+      "count": 3,
+      "mean": 0.02983910524082932,
+      "sample_std": 0.0
+    },
+    "least_squares_signed_relative_error": {
+      "count": 3,
+      "mean": -0.005363158639022703,
+      "sample_std": 0.0
+    },
+    "least_squares_absolute_relative_error": {
+      "count": 3,
+      "mean": 0.005363158639022703,
+      "sample_std": 0.0
+    },
+    "noise_sigma": {
+      "count": 3,
+      "mean": 0.0024033740046410152,
+      "sample_std": 0.0
+    },
+    "pinn_field_l2": {
+      "count": 3,
+      "mean": 0.0015990670601932226,
+      "sample_std": 0.0002101749096893044
+    },
+    "least_squares_field_l2": {
+      "count": 3,
+      "mean": 0.0010786755265236943,
+      "sample_std": 0.0
+    },
+    "pinn_observation_rmse": {
+      "count": 3,
+      "mean": 0.0024259738763381003,
+      "sample_std": 2.9198126574277004e-05
+    },
+    "least_squares_observation_rmse": {
+      "count": 3,
+      "mean": 0.0024015537771374727,
+      "sample_std": 0.0
+    },
+    "training_seconds": {
+      "count": 3,
+      "mean": 82.7937360666668,
+      "sample_std": 7.197806542124488
+    },
+    "pde_loss": {
+      "count": 3,
+      "mean": 4.8648439163329086e-06,
+      "sample_std": 1.5607069941120357e-06
+    },
+    "bc_loss": {
+      "count": 3,
+      "mean": 6.822986144606763e-07,
+      "sample_std": 3.456691240083038e-07
+    },
+    "ic_loss": {
+      "count": 3,
+      "mean": 4.790415621511586e-07,
+      "sample_std": 1.732748873526463e-07
+    },
+    "data_loss": {
+      "count": 3,
+      "mean": 5.885917602405204e-06,
+      "sample_std": 1.4169887617588955e-07
+    },
+    "total_loss": {
+      "count": 3,
+      "mean": 1.1912101695349946e-05,
+      "sample_std": 1.8935433583477285e-06
+    },
+    "kappa_after_adam": {
+      "count": 3,
+      "mean": 0.02753695598341803,
+      "sample_std": 0.0016790121281336815
+    },
+    "adam_kappa_min": {
+      "count": 3,
+      "mean": 0.005239152966813099,
+      "sample_std": 0.0009277039894908439
+    },
+    "adam_kappa_max": {
+      "count": 3,
+      "mean": 0.20036526629459792,
+      "sample_std": 0.029759616761813358
+    },
+    "lbfgs_kappa_min": {
+      "count": 3,
+      "mean": 0.027536913280038818,
+      "sample_std": 0.0016789789049990954
+    },
+    "lbfgs_kappa_max": {
+      "count": 3,
+      "mean": 0.03003393278519359,
+      "sample_std": 7.798753345207194e-05
+    }
+  },
+  "observation_noise": {
+    "pinn_kappa": {
+      "count": 3,
+      "mean": 0.02995199762391151,
+      "sample_std": 0.00014940728648275543
+    },
+    "pinn_signed_relative_error": {
+      "count": 3,
+      "mean": -0.001600079202949763,
+      "sample_std": 0.004980242882758488
+    },
+    "pinn_absolute_relative_error": {
+      "count": 3,
+      "mean": 0.0032692800517070872,
+      "sample_std": 0.0035511844883222075
+    },
+    "least_squares_kappa": {
+      "count": 3,
+      "mean": 0.029969893516974645,
+      "sample_std": 0.00012125075173393135
+    },
+    "least_squares_signed_relative_error": {
+      "count": 3,
+      "mean": -0.0010035494341784263,
+      "sample_std": 0.004041691724464453
+    },
+    "least_squares_absolute_relative_error": {
+      "count": 3,
+      "mean": 0.002749344948432412,
+      "sample_std": 0.0025509983786074753
+    },
+    "noise_sigma": {
+      "count": 3,
+      "mean": 0.0027461077059644508,
+      "sample_std": 0.00038007505304588264
+    },
+    "pinn_field_l2": {
+      "count": 3,
+      "mean": 0.001235497725177295,
+      "sample_std": 0.00045093843284068
+    },
+    "least_squares_field_l2": {
+      "count": 3,
+      "mean": 0.0005522918601882147,
+      "sample_std": 0.0005131844532062588
+    },
+    "pinn_observation_rmse": {
+      "count": 3,
+      "mean": 0.0028544198419445895,
+      "sample_std": 0.0004135234494367494
+    },
+    "least_squares_observation_rmse": {
+      "count": 3,
+      "mean": 0.0028627295135141575,
+      "sample_std": 0.00045410392483745973
+    },
+    "training_seconds": {
+      "count": 3,
+      "mean": 87.74544790000073,
+      "sample_std": 6.5326483148647805
+    },
+    "pde_loss": {
+      "count": 3,
+      "mean": 6.099323864956954e-06,
+      "sample_std": 2.0761977492337717e-06
+    },
+    "bc_loss": {
+      "count": 3,
+      "mean": 1.1370758851274916e-06,
+      "sample_std": 4.099854862985241e-07
+    },
+    "ic_loss": {
+      "count": 3,
+      "mean": 3.004651827443269e-07,
+      "sample_std": 4.649317348380983e-08
+    },
+    "data_loss": {
+      "count": 3,
+      "mean": 8.261713729576355e-06,
+      "sample_std": 2.3799066564817244e-06
+    },
+    "total_loss": {
+      "count": 3,
+      "mean": 1.5798578662405126e-05,
+      "sample_std": 4.283377281030856e-06
+    },
+    "kappa_after_adam": {
+      "count": 3,
+      "mean": 0.027938459804151924,
+      "sample_std": 0.0006002487131388618
+    },
+    "adam_kappa_min": {
+      "count": 3,
+      "mean": 0.006475787453580584,
+      "sample_std": 0.0013941575632151202
+    },
+    "adam_kappa_max": {
+      "count": 3,
+      "mean": 0.16585330177429752,
+      "sample_std": 0.00999126949419031
+    },
+    "lbfgs_kappa_min": {
+      "count": 3,
+      "mean": 0.027938459804151924,
+      "sample_std": 0.0006002487131388618
+    },
+    "lbfgs_kappa_max": {
+      "count": 3,
+      "mean": 0.03021992765757826,
+      "sample_std": 0.0001858599355316662
+    }
+  }
+}

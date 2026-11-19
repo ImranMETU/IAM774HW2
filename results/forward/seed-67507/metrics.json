@@ -1,0 +1,42 @@
+{
+  "seed": 67507,
+  "pinn": {
+    "relative_l2": 0.0006583502271116498,
+    "relative_l2_t1": 0.002173306697403141,
+    "max_absolute_error": 0.0024566024831170485
+  },
+  "crank_nicolson": {
+    "relative_l2": 1.268856530653604e-05,
+    "relative_l2_t1": 2.905237228228558e-06,
+    "max_absolute_error": 1.4567426070977163e-05
+  },
+  "after_adam": {
+    "phase": "after_adam",
+    "evaluation": 1,
+    "total": 0.00014374094341481003,
+    "pde": 0.00010155680868004724,
+    "bc": 2.7213519799539053e-05,
+    "ic": 1.4970614935223734e-05
+  },
+  "final_loss": {
+    "phase": "final",
+    "evaluation": 1,
+    "total": 4.69050733255041e-06,
+    "pde": 3.354058618670683e-06,
+    "bc": 7.574982948049598e-07,
+    "ic": 5.78950419074767e-07
+  },
+  "optimizer_counts": {
+    "adam_step_calls": 6000,
+    "adam_closure_evaluations": 0,
+    "lbfgs_step_calls": 1,
+    "lbfgs_iterations": 685,
+    "lbfgs_closure_evaluations": 702
+  },
+  "training_seconds": 92.86168769999858,
+  "crank_nicolson_mesh": {
+    "nx": 400,
+    "nt": 800
+  },
+  "crank_nicolson_median_seconds": 0.02829819999897154
+}

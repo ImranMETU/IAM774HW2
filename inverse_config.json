@@ -1,0 +1,20 @@
+{
+  "seed": 67507,
+  "observation_seed": 67507,
+  "observations": 100,
+  "eta": 0.01,
+  "t_min": 0.0,
+  "kappa_initial": 0.10,
+  "kappa_true": 0.030,
+  "loss_rate": 0.875,
+  "amplitude": 0.60,
+  "model": {"width": 32, "hidden_layers": 3},
+  "dtype": "float64",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "points": {"interior": 500, "boundary": 100, "initial": 200},
+  "loss_weights": {"pde": 1.0, "bc": 1.0, "ic": 1.0, "data": 1.0},
+  "adam": {"steps": 6000, "lr_start": 0.002, "lr_end": 0.0002, "diffusivity_lr": 0.01},
+  "lbfgs": {"max_iter": 1500, "line_search_fn": "strong_wolfe"},
+  "reference": "results/reference_grid.npz"
+}

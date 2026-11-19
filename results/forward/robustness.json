@@ -1,0 +1,104 @@
+{
+  "heldout_seed": 97507,
+  "heldout_count": 10000,
+  "runs": [
+    {
+      "seed": 67507,
+      "relative_l2": 0.0006583502271116498,
+      "relative_l2_t1": 0.002173306697403141,
+      "max_absolute_error": 0.0024566024831170485,
+      "training_seconds": 92.86168769999858,
+      "final_pde": 3.354058618670683e-06,
+      "final_bc": 7.574982948049598e-07,
+      "final_ic": 5.78950419074767e-07,
+      "heldout_residual_rms": 0.0029954392485345765,
+      "heldout_residual_max_abs": 0.06897815600398899,
+      "adam_step_calls": 6000,
+      "adam_closure_evaluations": 0,
+      "lbfgs_step_calls": 1,
+      "lbfgs_iterations": 685,
+      "lbfgs_applied_updates": 685,
+      "lbfgs_closure_evaluations": 702,
+      "lbfgs_stop_reason": "loss_change_tolerance",
+      "stopping_diagnostics_source": "exact replay"
+    },
+    {
+      "seed": 67508,
+      "relative_l2": 0.0009182992103137066,
+      "relative_l2_t1": 0.002441340126471197,
+      "max_absolute_error": 0.0034764912321543773,
+      "training_seconds": 103.78455389999726,
+      "final_pde": 6.173252321500733e-06,
+      "final_bc": 1.0981540250206917e-06,
+      "final_ic": 9.042927086103494e-07,
+      "heldout_residual_rms": 0.0035273930062098193,
+      "heldout_residual_max_abs": 0.057154426826141996,
+      "adam_step_calls": 6000,
+      "adam_closure_evaluations": 0,
+      "lbfgs_step_calls": 1,
+      "lbfgs_iterations": 612,
+      "lbfgs_applied_updates": 612,
+      "lbfgs_closure_evaluations": 628,
+      "lbfgs_stop_reason": "loss_change_tolerance",
+      "stopping_diagnostics_source": "original run"
+    },
+    {
+      "seed": 67509,
+      "relative_l2": 0.0007462035045926815,
+      "relative_l2_t1": 0.0019830363968432988,
+      "max_absolute_error": 0.0022750903173162176,
+      "training_seconds": 96.26715519999925,
+      "final_pde": 4.450068373728882e-06,
+      "final_bc": 7.281893938363796e-07,
+      "final_ic": 1.3964616946576667e-07,
+      "heldout_residual_rms": 0.004577881670934854,
+      "heldout_residual_max_abs": 0.0903509381011064,
+      "adam_step_calls": 6000,
+      "adam_closure_evaluations": 0,
+      "lbfgs_step_calls": 1,
+      "lbfgs_iterations": 446,
+      "lbfgs_applied_updates": 446,
+      "lbfgs_closure_evaluations": 459,
+      "lbfgs_stop_reason": "loss_change_tolerance",
+      "stopping_diagnostics_source": "original run"
+    }
+  ],
+  "statistics": {
+    "relative_l2": {
+      "mean": 0.0007742843140060127,
+      "sample_std": 0.00013222997905137346
+    },
+    "relative_l2_t1": {
+      "mean": 0.002199227740239212,
+      "sample_std": 0.00023024878391425324
+    },
+    "max_absolute_error": {
+      "mean": 0.002736061344195881,
+      "sample_std": 0.0006476217884074782
+    },
+    "training_seconds": {
+      "mean": 97.6377989333317,
+      "sample_std": 5.588939943187889
+    },
+    "final_pde": {
+      "mean": 4.659126437966766e-06,
+      "sample_std": 1.4211763575243995e-06
+    },
+    "final_bc": {
+      "mean": 8.612805712206771e-07,
+      "sample_std": 2.0566119652320722e-07
+    },
+    "final_ic": {
+      "mean": 5.409630990502943e-07,
+      "sample_std": 3.8373605488464105e-07
+    },
+    "heldout_residual_rms": {
+      "mean": 0.003700237975226417,
+      "sample_std": 0.0008052561968335147
+    },
+    "heldout_residual_max_abs": {
+      "mean": 0.0721611736437458,
+      "sample_std": 0.016825599281406353
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "seed": 67507,
+  "noise_sigma": 0.0024033740046410152,
+  "pinn": {
+    "kappa": 0.029780878833540442,
+    "signed_relative_error": -0.007304038881985275,
+    "absolute_relative_error": 0.007304038881985275,
+    "field": {
+      "relative_l2": 0.0017237354263453725,
+      "relative_l2_t1": 0.0036800564100207926,
+      "max_absolute_error": 0.0036283795879912353
+    },
+    "observation_rmse": 0.002455511292669551
+  },
+  "least_squares": {
+    "kappa": 0.02983910524082932,
+    "signed_relative_error": -0.005363158639022703,
+    "absolute_relative_error": 0.005363158639022703,
+    "field": {
+      "relative_l2": 0.0010786755265236943,
+      "relative_l2_t1": 0.001599563685503541,
+      "max_absolute_error": 0.0012282573912033579
+    },
+    "observation_rmse": 0.0024015537771374727,
+    "success": true,
+    "message": "`gtol` termination condition is satisfied.",
+    "function_evaluations": 6
+  },
+  "after_adam": {
+    "phase": "after_adam",
+    "evaluation": 1,
+    "total": 0.0002591007966766224,
+    "pde": 0.0001637614328598167,
+    "bc": 3.708552253481871e-05,
+    "ic": 3.761345026512293e-05,
+    "data": 2.0640391016864075e-05,
+    "kappa": 0.028601602610927514
+  },
+  "final_loss": {
+    "phase": "final",
+    "evaluation": 1,
+    "total": 1.3766791344330588e-05,
+    "pde": 6.361290715652741e-06,
+    "bc": 1.0814378213911319e-06,
+    "ic": 2.9452709885902554e-07,
+    "data": 6.029535708427689e-06,
+    "kappa": 0.029780878833540442
+  },
+  "optimizer_counts": {
+    "adam_step_calls": 6000,
+    "adam_closure_evaluations": 0,
+    "lbfgs_step_calls": 1,
+    "lbfgs_iterations": 453,
+    "lbfgs_applied_updates": 453,
+    "lbfgs_closure_evaluations": 469,
+    "lbfgs_stop_reason": "loss_change_tolerance"
+  },
+  "training_seconds": 83.18137990000105
+}

@@ -1,0 +1,44 @@
+{
+  "seed": 67508,
+  "pinn": {
+    "relative_l2": 0.0009182992103137066,
+    "relative_l2_t1": 0.002441340126471197,
+    "max_absolute_error": 0.0034764912321543773
+  },
+  "crank_nicolson": {
+    "relative_l2": 1.268856530653604e-05,
+    "relative_l2_t1": 2.905237228228558e-06,
+    "max_absolute_error": 1.4567426070977163e-05
+  },
+  "after_adam": {
+    "phase": "after_adam",
+    "evaluation": 1,
+    "total": 0.00040267304184104705,
+    "pde": 0.0002796598049040433,
+    "bc": 9.059235650336312e-05,
+    "ic": 3.242088043364065e-05
+  },
+  "final_loss": {
+    "phase": "final",
+    "evaluation": 1,
+    "total": 8.175699055131775e-06,
+    "pde": 6.173252321500733e-06,
+    "bc": 1.0981540250206917e-06,
+    "ic": 9.042927086103494e-07
+  },
+  "optimizer_counts": {
+    "adam_step_calls": 6000,
+    "adam_closure_evaluations": 0,
+    "lbfgs_step_calls": 1,
+    "lbfgs_iterations": 612,
+    "lbfgs_applied_updates": 612,
+    "lbfgs_closure_evaluations": 628,
+    "lbfgs_stop_reason": "loss_change_tolerance"
+  },
+  "training_seconds": 103.78455389999726,
+  "crank_nicolson_mesh": {
+    "nx": 400,
+    "nt": 800
+  },
+  "crank_nicolson_median_seconds": 0.02829819999897154
+}

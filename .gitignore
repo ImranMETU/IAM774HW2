@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.mplconfig/
+.pinn-deps/
+.reproduction/
+.env
+.env.*
+*.py[cod]
+.DS_Store
+Thumbs.db

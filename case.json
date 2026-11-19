@@ -1,0 +1,8 @@
+{
+  "parameter_source": "Independent illustrative midpoints of the three HW2 ranges",
+  "rod": {"kappa": 0.030, "loss_rate": 0.875, "amplitude": 0.60},
+  "space_intervals": [50, 100, 200, 400],
+  "time_steps_per_space_interval": 2,
+  "evaluation_intervals": 100,
+  "timed_repeats": 7
+}

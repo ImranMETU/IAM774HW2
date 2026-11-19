@@ -1,0 +1,73 @@
+{
+  "seed": 67509,
+  "model": {
+    "width": 32,
+    "hidden_layers": 3
+  },
+  "loss_rate": 0.875,
+  "amplitude": 0.6,
+  "kappa_initial": 0.1,
+  "points": {
+    "interior": 500,
+    "boundary": 100,
+    "initial": 200
+  },
+  "loss_weights": {
+    "pde": 1.0,
+    "bc": 1.0,
+    "ic": 1.0,
+    "data": 1.0
+  },
+  "adam": {
+    "steps": 6000,
+    "lr_start": 0.002,
+    "lr_end": 0.0002,
+    "diffusivity_lr": 0.01
+  },
+  "lbfgs": {
+    "max_iter": 1500,
+    "line_search_fn": "strong_wolfe"
+  },
+  "dtype": "float64",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "collocation_seed": 67507,
+  "sampling": "Fixed uniform full batches with an even split between boundaries",
+  "initialization": "PyTorch Linear default, separate generator for sampling",
+  "deterministic_algorithms": true,
+  "optimizer_defaults": {
+    "adam": {
+      "lr": 0.002,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": false
+    },
+    "lbfgs": {
+      "lr": 1,
+      "max_iter": 1500,
+      "max_eval": 1875,
+      "tolerance_grad": 1e-07,
+      "tolerance_change": 1e-09,
+      "history_size": 100,
+      "line_search_fn": "strong_wolfe",
+      "maximize": false
+    }
+  },
+  "software": {
+    "python": "3.14.5",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  }
+}

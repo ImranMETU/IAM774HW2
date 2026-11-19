@@ -1,0 +1,47 @@
+{
+  "seed": 67507,
+  "observation_seed": 67508,
+  "observations": 100,
+  "eta": 0.01,
+  "t_min": 0.0,
+  "kappa_initial": 0.1,
+  "kappa_true": 0.03,
+  "loss_rate": 0.875,
+  "amplitude": 0.6,
+  "model": {
+    "width": 32,
+    "hidden_layers": 3
+  },
+  "dtype": "float64",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "points": {
+    "interior": 500,
+    "boundary": 100,
+    "initial": 200
+  },
+  "loss_weights": {
+    "pde": 1.0,
+    "bc": 1.0,
+    "ic": 1.0,
+    "data": 1.0
+  },
+  "adam": {
+    "steps": 6000,
+    "lr_start": 0.002,
+    "lr_end": 0.0002,
+    "diffusivity_lr": 0.01
+  },
+  "lbfgs": {
+    "max_iter": 1500,
+    "line_search_fn": "strong_wolfe"
+  },
+  "reference": "results/reference_grid.npz",
+  "collocation_seed": 67507,
+  "noise_sigma": 0.0031548713835440616,
+  "noise_std_ddof": 0,
+  "observation_rng": "NumPy default_rng",
+  "pde_batch": "Observation coordinates plus independent uniform interior points",
+  "scipy": "1.18.0",
+  "observation_source": "generated"
+}
